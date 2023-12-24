@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="./css/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="borderline"></div>
+      <form id="form">
+        <h2>Login In</h2>
+        <div class="inputbox">
+          <input type="email" id="email" required="required" />
+          <span>Email</span>
+          <i></i>
+        </div>
+        <div class="inputbox">
+          <input type="password" id="password" required="required" />
+          <span>Password</span>
+          <i></i>
+        </div>
+        <div class="links">
+          <a href="#">Forgot Password</a>
+          <a href="./public/register.html">Signup</a>
+        </div>
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+    <script type="module" src="./src/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>
